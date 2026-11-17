@@ -1,0 +1,39 @@
+body {
+
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.perfil { 
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar{
+    width: 90px;
+    border-radius: 50%;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4px;
+}
+
+.grid img{
+width: 100%;
+aspect-ratio: 1;
+object-fit: cover;
+
+}
+
+.paginacion{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
